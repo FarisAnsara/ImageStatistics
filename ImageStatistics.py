@@ -1,5 +1,4 @@
 import os
-import math
 
 class ImageStatistics:
     def __init__(self, image_path, width, height):
@@ -45,7 +44,7 @@ class ImageStatistics:
         return sum((x - mean) ** 2 for x in self.pixels) / self.pixel_count
 
     def calculate_std(self):
-        return math.sqrt(self.calculate_variance())
+        return self.calculate_variance() ** 0.5
 
     def get_min_pixel_value(self):
         return min(self.pixels)
