@@ -5,12 +5,6 @@ This project calculates statistical properties of 8-bit grayscale images stored 
 
 ---
 
-## Requirements
-To install the required dependencies, run:
-```bash
-pip install -r requirements.txt
-```
-
 **Dependencies:**
 - Python == 3.11.3
 
